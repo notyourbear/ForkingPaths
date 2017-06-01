@@ -1,3 +1,19 @@
 ul {
   margin: 0;
+  list-style: none;
+  padding: 5px;
+}
+
+li {
+  padding: 1px 10px;
+}
+
+.showMore {
+  display: inline-block;
+  float: left;
+  margin: 0 10px;
+}
+
+.closed + ul {
+  display: none;
 }
